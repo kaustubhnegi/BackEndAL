@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 /////////////////////////////////////////////////////
 
 //      DATABASE CREATION
-mongoose.connect("mongodb://localhost:27017/NewMongooseDB")
+mongoose.connect("mongodb://localhost:27017/NewMongoose2DB")
     .then((data) => { console.log("connection sucessful") })
     .catch((err) => { console.log(err) })
 
@@ -34,7 +34,7 @@ mongoose.connect("mongodb://localhost:27017/NewMongooseDB")
     })
 
     const xyxa =2;
-    
+
 //////////////////////////////////////////////////////////////
     // Modal
     // A Mongoose Model is a wrapper on the Mongoose Schema.

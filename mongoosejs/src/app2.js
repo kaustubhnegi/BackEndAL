@@ -72,7 +72,11 @@ mongoose.connect("mongodb://localhost:27017/MultipleMongoose")
 
             })
             
-            const result = await Playlist.insertMany([jsPlaylist,mongoPlaylist,mongoosePlaylist,expressPlaylist]
+            const result = await Playlist.insertMany([jsPlaylist,mongoPlaylist,mongoosePlaylist,expressPlaylist]);
+        }catch(err){
+            console.log(err)
         }
         
     }
+
+    createDocument();
