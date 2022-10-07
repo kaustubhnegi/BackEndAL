@@ -32,6 +32,9 @@ mongoose.connect("mongodb://localhost:27017/NewMongooseDB")
             default:    Date.now
         }
     })
+
+    const xyxa =2;
+    
 //////////////////////////////////////////////////////////////
     // Modal
     // A Mongoose Model is a wrapper on the Mongoose Schema.
